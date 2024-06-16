@@ -174,7 +174,7 @@ const Form: React.FC<{
         <div className="flex-col">
           <div
             className={classNames(
-              `border-b border-transparent dark:bg-dark-700 dark:bg-opacity-70 bg-light-400 rounded-xl border transition-shadow ${inputFromFocus ? 'dark:!border-purple-500 !border-purple-300/80 shadow-[0px_0px_10px_2px] shadow-purple-500/50' : ''}`,
+              `border-b border-transparent dark:bg-red-700 dark:bg-opacity-70 bg-light-400 rounded-xl border transition-shadow ${inputFromFocus ? 'dark:!border-purple-500 !border-purple-300/80 shadow-[0px_0px_10px_2px] shadow-purple-500/50' : ''}`,
               fixedOutputFomMintClass,
             )}
           >
